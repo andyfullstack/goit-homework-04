@@ -648,7 +648,9 @@ button {
 }
 
 .customer-link:hover .customer-logo,
-.customer-list:hover .customer-logo {
+.customer-list:hover .customer-logo,
+.customer-link:focus .customer-logo,
+.customer-list:focus .customer-logo {
 
     border-color: #404bbf;
     color: #404BBF;
@@ -656,7 +658,9 @@ button {
 }
 
 .customer-link:hover .customer-item,
-.customer-list:hover .customer-item {
+.customer-list:hover .customer-item,
+.customer-link:focus .customer-item,
+.customer-list:focus .customer-item {
 
     color: #404BBF;
     border-color: #404bbf;
