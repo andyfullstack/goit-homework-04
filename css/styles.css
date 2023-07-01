@@ -537,13 +537,13 @@ button {
     margin: auto;
 }
 
-.team-social-item .team-social-link:hover,
-.team-social-item .team-social-link:focus {
+.team-social-link:hover,
+.team-social-link:focus {
     background-color: #404bbf;
 }
 
-.team-social-item .team-social-link:hover .team-social,
-.team-social-item .team-social-link:focus .team-social {
+.team-social-link:hover .team-social,
+.team-social-link:focus .team-social {
     fill: #F4F4FD;
 }
 
@@ -745,8 +745,8 @@ footer {
     /* margin-right: 120px; */
 }
 
-.team-soc-link:hover .team-social,
-.team-soc-link:focus .team-social {
+.team-social-link:hover,
+.team-social-link:focus {
 
     background-color: #31d0aa;
 }
