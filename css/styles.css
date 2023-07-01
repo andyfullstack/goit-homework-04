@@ -599,7 +599,7 @@ button {
     font-size: 36px;
     font-family: Roboto;
     font-style: normal;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -610,15 +610,30 @@ button {
     gap: 24px;
     justify-content: center;
     align-items: center;
-    /* margin: 0 auto; */
 
+}
+
+.customer-link {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8e8f99;
+    fill: currentColor;
 
 }
 
 .customer-item {
-    padding: 16px 32px;
+    /* padding: 16px 32px;
     border-radius: 4px;
-    border: 1px solid var(--lightslate, #8E8F99);
+    border: 1px solid var(--lightslate, #8E8F99); */
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     transition-property: color, background-color, box-shadow;
     transition-duration: 250ms;
@@ -626,17 +641,20 @@ button {
 
 }
 
+.customer-link:hover .customer-logo,
 .customer-list:hover .customer-logo {
 
-    fill: #404BBF;
+    border-color: #404bbf;
+    color: #404BBF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+.customer-link:hover .customer-item,
 .customer-list:hover .customer-item {
 
-    fill: #404BBF;
+    color: #404BBF;
+    border-color: #404bbf;
 
-    border: 1px solid #404BBF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
