@@ -745,8 +745,8 @@ footer {
     margin-right: 120px;
 }
 
-.team-social-link:hover,
-.team-social-link:focus {
+.social.team-social-link:hover,
+.social.team-social-link:focus {
 
     background-color: #31d0aa;
 }
