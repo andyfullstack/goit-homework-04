@@ -635,7 +635,7 @@ button {
     height: 88px;
 
 
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     transition-property: border-color, background-color, box-shadow;
     transition-duration: 250ms;
@@ -713,6 +713,12 @@ footer {
 
 }
 
+.footer-social-list {
+
+    display: flex;
+    gap: 16px;
+}
+
 .footer-social-item {
     color: #FFF;
     font-family: Roboto;
@@ -737,6 +743,11 @@ footer {
     display: flex;
 }
 
+.team-social-link:hover,
+.team-social-link:focus {
+
+    background-color: #31d0aa;
+}
 
 /**
   |============================
