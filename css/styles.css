@@ -647,32 +647,31 @@ button {
 
 }
 
+.customer-item:hover .customer-link,
+.customer-item:focus .customer-link {
+
+
+    border-color: #404BBf;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
 .customer-link:hover .customer-logo,
-.customer-list:hover .customer-logo,
-.customer-link:focus .customer-logo,
-.customer-list:focus .customer-logo {
+.customer-link:focus .customer-logo {
 
-    border-color: #404bbf;
+
     color: #404BBF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.customer-link:hover .customer-item,
-.customer-list:hover .customer-item,
-.customer-link:focus .customer-item,
-.customer-list:focus .customer-item {
 
-    color: #404BBF;
-    border-color: #404bbf;
-
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-}
 
 .customer-logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    fill: currentColor;
 
 }
 
