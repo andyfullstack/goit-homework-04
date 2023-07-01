@@ -742,7 +742,7 @@ footer {
 .footer .footer-flex {
     display: flex;
     align-items: baseline;
-    /* margin-right: 120px; */
+    margin-right: 120px;
 }
 
 .team-social-link:hover,
